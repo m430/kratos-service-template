@@ -1,0 +1,12 @@
+server:
+  grpc:
+    addr: 0.0.0.0:19000
+    timeout: 1s
+data:
+  database:
+    driver: mysql
+    source: root:Zz7366231++@tcp(127.0.0.1:3306)/mall
+  redis:
+    addr: 127.0.0.1:6379
+    read_timeout: 0.2s
+    write_timeout: 0.2s
